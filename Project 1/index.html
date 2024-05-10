@@ -1,0 +1,219 @@
+<!-- kan iku onok button pruchaase
+iku nko isine wa.me/+6213212438?text=akutumbaslandingpageseaptune -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- end asnimasi -->
+</head>
+
+<body>
+    <!-- Script animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- ojok di ubah -->
+    <script>
+        AOS.init();
+
+        function showProducts() {
+        // Sembunyikan loading
+        document.querySelector('.loading').style.display = 'none';
+        // Tampilkan produk
+        document.querySelector('.produk ul').style.display = 'flex';
+    }
+
+    // Panggil fungsi showProducts setelah 5 detik (5000 ms)
+    setTimeout(showProducts, 7000);
+
+    window.addEventListener('scroll', function() {
+        var contactSection = document.getElementById('contact');
+        var navLinks = document.querySelectorAll('nav ul li a');
+        var navBg = document.querySelector("nav");
+
+        if (contactSection.getBoundingClientRect().top <= 0) {
+            navLinks.forEach(function(link) {
+                link.style.color = 'black';
+            });
+        } else {
+            navLinks.forEach(function(link) {
+                link.style.color = 'white';
+            });
+        }
+    });
+    </script>
+    <!-- Script animate -->
+    <!-- Banner ========================================================= -->
+    <div class="container1" id="home">
+        <nav>
+            <div class="isi">
+                <img src="asset/logo.png" alt="" srcset="" id="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produk">Product</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="icon">
+                    <img src="asset/icon1.png" alt="" srcset="">
+                    <img src="asset/icon2.png" alt="" srcset="">
+                </div>
+            </div>
+        </nav>
+        <!-- End Banner ========================================================= -->
+    </div>
+    <!-- Produk Section ==================================================== -->
+    <div class="container2" id="produk">
+        <div data-aos="fade-right" data-aos-duration="1500" class="isi">
+            <div class="search">
+                <input type="search" placeholder="Search..">
+                <img src="asset/icon1-red.svg" alt="" srcset="">
+            </div>
+            <div class="produk">
+
+                <div class="loading">
+                    <div class='container'>
+                        <div class='loader'>
+                            <div class='loader--dot'></div>
+                            <div class='loader--dot'></div>
+                            <div class='loader--dot'></div>
+                            <div class='loader--dot'></div>
+                            <div class='loader--dot'></div>
+                            <div class='loader--dot'></div>
+                            <div class='loader--text'></div>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/produk2.png" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/produk3.png" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/produk2.png" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/produk2.png" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/produk3.png" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+                    <li>
+                        <img src="asset/bg-persegi.jpg" alt="">
+                        <h1>Nike Air</h1>
+                        <p>$100</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Produk Section ==================================================== -->
+
+
+    <!-- Contact section ======================= -->
+    <div class="contact" id="contact">
+        <div class="contactbox">
+            <div class="contactgap">
+                <div class="left">
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Contact Us</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150"><span>Kontak Kami
+                            Langsung</span></h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Modi error nemo illo ut molestias fugiat excepturi cupiditate
+                        quasi reprehenderit! Ducimus dignissimos molestias ipsa sequi. Tenetur eum ad cumque rerum
+                        ratione!</p>
+                    <div class="image-container">
+                        <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" src="asset/bg-persegi.jpg" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" src="asset/logo-merah.png" alt="">
+                    <li><input data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" type="email" name="" id="" placeholder="email"></li>
+                    <li><input data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" type="password" name="" id="" placeholder="password"></li>
+                    <li><button data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250" onclick="">Submit</button></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contac Section ======================= -->
+
+    <!-- Footer ========================================= -->
+    <div class="footer">
+        <div class="footergap">
+            <img data-aos="fade-down" data-aos-duration="1000" src="asset/logo.png" alt="">
+            <a data-aos="fade-down" data-aos-duration="1000" href="">Designed by : Bakul Tugas</a>
+        </div>
+        <div class="footergap">
+            <div class="item">
+                <h1>NIKE</h1>
+                <h1>RED</h1>
+                <h1>SHOES</h1>
+            </div>
+            <div class="item">
+                <!-- delok a href e -->
+                <h3>Feature</h3>
+                <li><a href="">About</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">Contact</a></li>
+
+            </div>
+            <div class="item">
+                <h3>Contact</h3>
+                <li><a href="">example@gmail.com</a></li>
+                <li><a href="">example@gmail.com</a></li>
+                <li><a href="">example@gmail.com</a></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Footer ========================================= -->
+</body>
+
+</html>
